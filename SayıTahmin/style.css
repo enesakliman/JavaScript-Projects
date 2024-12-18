@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header {
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    color:rgb(67, 112, 114);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container label{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: cadetblue;
+    margin-bottom: 3rem;
+}
+
+.container input{
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
+    box-shadow: 0 0 2px;
+    
+}
+
+.container button{
+    width: 50%;
+    padding: 1rem;
+    margin: 10px;
+    background-color: rgb(127, 224, 192);
+    color: white;
+    font-size: 26px;
+    border-radius: 1.5rem;
+}
+
+#clear {
+    display: none;
+    margin-top: 4rem;
+}
+.container p {
+    padding: 0.75rem;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 2px;
+    margin-top: -3rem;
+}
